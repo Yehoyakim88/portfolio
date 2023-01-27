@@ -1,0 +1,55 @@
+@import "./../../assets/fonts/Poppins/fonts.scss";
+
+.logoImage {
+  position: absolute;
+  left: 100px;
+  top: -50px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  // overflow-y: hidden;
+}
+
+.menuContainer {
+  position: absolute;
+  top: 38.5px;
+  right: 101px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin: 20px;
+}
+
+a {
+  font-family: "Poppins";
+  font-size: 23;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+span {
+  font-family: "Poppins";
+  font-size: 23;
+  color: white;
+}
+
+
+
+.glow {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  // animation: glow 1s ease-in-out infinite alternate;
+}
+
+// @keyframes glow {
+//   from {
+//     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8e00e6, 0 0 40px #8e00e6, 0 0 50px #8e00e6, 0 0 60px #8e00e6, 0 0 70px #a960d6;
+//   }
+
+//   to {
+//     text-shadow: 0 0 20px #fff, 0 0 30px #a960d6, 0 0 40px #a960d6, 0 0 50px #a960d6, 0 0 60px #a960d6, 0 0 70px #a960d6, 0 0 80px #a960d6;
+//   }
+// }

@@ -1,0 +1,115 @@
+.introduceMeText {
+    position: absolute;
+    left: 596px;
+    top: 349px;
+    font-family: "Poppins";
+    font-size: 64px;
+    font-weight: 400;
+    color: #ffff;
+  }
+  
+  .myName {
+    position: absolute;
+    left: 720px;
+    top: 297px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 90px;
+  }
+  
+  .profession {
+    position: absolute;
+    top: 387px + 16px;
+    left: 720px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 58px;
+    color: #4b47ff;
+  }
+  
+  .rotateLeft90 {
+    transform: rotate(270deg);
+  }
+  
+  .logoSpan {
+    font-family: "Poppins";
+    font-size: 46;
+    color: purple;
+  }
+  
+  .personShadow {
+    position: absolute;
+    top: 221.62px;
+    left: 12px;
+  }
+  
+  // settings adopted from figma therefore this class name
+  .personShadowFigma {
+    position: absolute;
+    // width: 690.7px;
+    // height: 671.38px;
+    left: 12px;
+    top: 221.62px;
+  }
+  
+  .letsTalkButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    // gap: 10px;
+  
+    position: absolute;
+    width: 165px;
+    height: 58px;
+    left: calc(50% - 165px / 2 + 254.5px);
+    top: 513px;
+  
+    /* Style 1/style 1 b -blues/blues 2 */
+  
+    background: #00bee8;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  
+    &:hover {
+      background: #4b47ff;
+      transition: 0.3s ease-in-out;
+      transform: scale(1.2);
+      // padding: 20px, 40px, 20px, 40px !important;
+      // width: 185px !important;
+      // height: 68px !important;
+    }
+  }
+  
+  .letsTalkText {
+    width: 105px;
+    height: 28px;
+  
+    /* Style 1/subtitles */
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    /* identical to box height, or 28px */
+  
+    /* White */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .anchor4 {
+    position: absolute;
+    width: 135px;
+    height: 23px;
+    left: 664px;
+    top: 5123px;
+  }

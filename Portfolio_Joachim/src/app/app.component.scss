@@ -1,0 +1,13 @@
+@import "./../assets/fonts/Poppins/fonts.scss";
+@import "./menu/menu.component.scss";
+
+.poppinsSpan {
+    font-family: 'Poppins';
+    font-size: 23;
+    color: white;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+}
