@@ -1,0 +1,35 @@
+.portfolioContainer {
+  height: 2709px;
+  position: absolute;
+  top: 2429px;
+  left: 358px;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+}
+
+.portfolioHeader {
+  width: 389px;
+  height: 108px;
+  margin-left: 36px;
+  margin-right: 42px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 120%;
+  /* identical to box height, or 108px */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+
