@@ -1,114 +1,145 @@
-.introduceMeText {
-    position: absolute;
-    left: 596px;
-    top: 349px;
-    font-family: "Poppins";
-    font-size: 64px;
-    font-weight: 400;
-    color: #ffff;
+.aboutMe {
+  z-index: 1;
+  position: absolute;
+  top: 1081px;
+  left: 102px;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeHeader {
+  //   position: absolute;
+  z-index: 1;
+  width: 452px;
+  height: 108px;
+  margin-bottom: 35px;
+  //   left: 100px;
+  //   top: 1081px;
+
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 120%;
+  /* identical to box height, or 108px */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.aboutMeSection {
+  //   position: absolute;
+  z-index: 1;
+  //   left: 100px;
+  //   top: 1081px;
+  width: 471px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+
+  /* Style 1/body */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.aboutMeText {
+  width: 471px;
+  height: 114px;
+  margin-bottom: 35px;
+
+  /* Style 1/body */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.personalThings {
+  margin-left: 40px;
+}
+
+.personalThing {
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+
+  /* Style 1/body */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 35px;
+
+  span {
+    margin-left: 34px;
   }
-  
-  .myName {
-    position: absolute;
-    left: 720px;
-    top: 297px;
-    font-family: "Poppins";
-    font-weight: 700;
-    font-size: 90px;
-  }
-  
-  .profession {
-    position: absolute;
-    top: 387px + 16px;
-    left: 720px;
-    font-family: "Poppins";
-    font-weight: 400;
-    font-size: 58px;
-    color: #4b47ff;
-  }
-  
-  .rotateLeft90 {
-    transform: rotate(270deg);
-  }
-  
-  .logoSpan {
-    font-family: "Poppins";
-    font-size: 46;
-    color: purple;
-  }
-  
-  .personShadow {
-    position: absolute;
-    top: 221.62px;
-    left: 12px;
-  }
-  
-  // settings adopted from figma therefore this class name
-  .personShadowFigma {
-    position: absolute;
-    // width: 690.7px;
-    // height: 671.38px;
-    left: 12px;
-    top: 221.62px;
-  }
-  
-  .letsTalkButton {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 30px 15px 30px;
-    // gap: 10px;
-  
-    position: absolute;
-    width: 165px;
-    height: 58px;
-    left: calc(50% - 165px / 2 + 254.5px);
-    top: 513px;
-  
-    /* Style 1/style 1 b -blues/blues 2 */
-  
-    background: #00bee8;
-    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
-    border: 0;
-    border-radius: 10px;
-    cursor: pointer;
-  
-    &:hover {
-      background: #4b47ff;
-      transition: 0.3s ease-in-out;
-      transform: scale(1.2);
-    }
-  }
-  
-  .letsTalkText {
-    width: 105px;
-    height: 28px;
-  
-    /* Style 1/subtitles */
-  
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 120%;
-    /* identical to box height, or 28px */
-  
-    /* White */
-  
-    color: #ffffff;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-  
-  .anchor4 {
-    position: absolute;
-    width: 135px;
-    height: 23px;
-    left: 664px;
-    top: 5123px;
-  }
+}
+
+.aboutMeImage {
+  position: absolute;
+//   left: 720px;
+  width: 453px;
+  height: 453px;
+  object-fit: cover;
+  border-radius: 100%;
+//   margin-left: 168px;
+  border: 4px solid #00bee8;
+  background-position-y: 45%;
+}
+
+.blurImageRight {
+  position: absolute;
+  right: 0;
+  top: 800px;
+  z-index: 1;
+
+  /* Style 1/style 1 b -blues/blues 1 */
+
+  //   background: #4b47ff;
+  //   /* gradient shadow */
+
+  //   filter: blur(46.5px);
+  //   transform: rotate(46.66deg);
+}

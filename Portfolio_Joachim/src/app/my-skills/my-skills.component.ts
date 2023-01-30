@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-skills.component.scss']
 })
 export class MySkillsComponent {
-
+  public iconNames : string[] = 
+  [
+    'Angular', 
+    'TypeScript', 
+    'JavaScript', 
+    'HTML', 
+    'Firebase', 
+    'GIT', 
+    'CSS', 
+    'Rest-Api', 
+    'Scrum', 
+    'Material design'
+  ];
 }

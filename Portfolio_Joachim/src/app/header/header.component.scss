@@ -1,0 +1,268 @@
+.introduceMeText {
+    position: absolute;
+    left: 596px;
+    top: 349px;
+    font-family: "Poppins";
+    font-size: 64px;
+    font-weight: 400;
+    color: #ffff;
+  }
+  
+  .myName {
+    position: absolute;
+    left: 720px;
+    top: 297px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 90px;
+  }
+  
+  .profession {
+    position: absolute;
+    top: 387px + 16px;
+    left: 720px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 58px;
+    color: #4b47ff;
+  }
+  
+  .rotateLeft90 {
+    transform: rotate(270deg);
+  }
+  
+  .logoSpan {
+    font-family: "Poppins";
+    font-size: 46;
+    color: purple;
+  }
+  
+  .personShadow {
+    position: absolute;
+    top: 221.62px;
+    left: 12px;
+  }
+  
+  // settings adopted from figma therefore this class name
+  .personShadowFigma {
+    position: absolute;
+    left: 12px;
+    top: 221.62px;
+    // width: 646px;
+    // height: 705px;
+    // object-fit: contain;
+  
+    // background-image: url("./../../assets/img/Photo shadows.png");
+  }
+
+  .scrollDown {
+    position: absolute;
+    z-index: 1;
+    top: 773px;
+    right: 36px;
+    width: 133px;
+    height: 28px;
+  
+    /* Style 1/subtitles */
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    /* identical to box height, or 28px */
+  
+    /* White */
+  
+    color: #ffffff;
+  
+    transform: rotate(90deg);
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .scrollDownImage {
+    position: absolute;
+    z-index: 1;
+    top: 863px;
+    right: 96.22px;
+  }
+  
+  // .linearGradientCurve {
+  //   position: absolute;
+  //   height: 971.56px;
+  //   left: 11.08%;
+  //   right: 0%;
+  //   top: 377.6px;
+  
+  //   /* Style 1/Syle 1 a - green purple/Gradient */
+  
+  //   background: linear-gradient(
+  //     165.69deg,
+  //     #1a2743 37.75%,
+  //     #27334b 43.25%,
+  //     #141d2f 70.18%
+  //   );
+  // }
+  
+  // .radialGradient {
+  //   position: absolute;
+  //   height: 1078.6px;
+  //   left: -0.14%;
+  //   right: 0%;
+  //   top: 0px;
+  
+  //   /* Style 1/Syle 1 a - green purple/Gradient b */
+  
+  //   background: radial-gradient(
+  //       102.53% 81.55% at 46.74% 3.94%,
+  //       #1a2743 0.37%,
+  //       #27334b 13.54%,
+  //       #141d2f 71.91%
+  //     )
+  //     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  // }
+
+  .vector1 {
+    /* Vector 1 */
+  
+    position: absolute;
+    z-index: 1;
+    top: 923px;
+    left: 0px;
+    right: 1340px;
+    width: 100px;
+    height: 0;
+  
+    /* Style 1/style 1 b -blues/blues 1 */
+  
+    border: 2px solid #4b47ff;
+    border-radius: 0px 4px 4px 0px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .socialMedia {
+    position: absolute;
+    z-index: 1;
+    top: 908.37px;
+    left: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socialMediaImages {
+    margin-left: 42px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .socialMediaEmail {
+    // position: absolute;
+    width: fit-content;
+    height: 28px;
+    margin-left: 40px;
+    // left: 356px;
+    // top: 905px;
+    align-items: center;
+  
+    /* Style 1/subtitles */
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    /* identical to box height, or 28px */
+  
+    /* White */
+  
+    color: #ffffff;
+  }
+  
+  .anchor4 {
+    position: absolute;
+    width: 135px;
+    height: 23px;
+    left: 664px;
+    top: 5123px;
+  }
+  
+  
+  .linebox {
+    position: absolute;
+      top: 400px;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      width: 100%;
+      height: 1079px;
+      -o-object-fit: fill;
+      object-fit: fill;
+      background-image: url('./../../assets/img/line.png');
+      background-repeat: round;
+      background-size: cover;
+  }
+  
+  .letsTalkButton {
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    // gap: 10px;
+  
+    position: absolute;
+    width: 165px;
+    height: 58px;
+    left: calc(50% - 165px / 2 + 254.5px);
+    top: 513px;
+  
+    /* Style 1/style 1 b -blues/blues 2 */
+  
+    background: #00bee8;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    &:hover {
+      background: #4b47ff;
+      transition: 0.3s ease-in-out;
+      transform: scale(1.2);
+    }
+  }
+  
+  .letsTalkText {
+    width: 105px;
+    height: 28px;
+  
+    /* Style 1/subtitles */
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    /* identical to box height, or 28px */
+  
+    /* White */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
