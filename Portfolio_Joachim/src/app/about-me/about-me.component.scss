@@ -117,16 +117,33 @@
   }
 }
 
+.thisIsMe {
+  display: flex;
+  align-items: center;
+}
+
 .aboutMeImage {
   position: absolute;
-//   left: 720px;
+  //   left: 720px;
   width: 453px;
   height: 453px;
   object-fit: cover;
   border-radius: 100%;
-//   margin-left: 168px;
+  //   margin-left: 168px;
   border: 4px solid #00bee8;
   background-position-y: 45%;
+}
+
+.line7 {
+  position: absolute;
+  width: 221px;
+  height: 0px;
+  top: 220px;
+  left: 1058px;
+
+  /* Style 1/style 1 b -blues/blues 2 */
+
+  border: 2px solid #00bee8;
 }
 
 .blurImageRight {
