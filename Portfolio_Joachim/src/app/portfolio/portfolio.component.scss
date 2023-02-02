@@ -6,8 +6,8 @@
 }
 
 .headerContainer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .portfolioHeader {
@@ -33,7 +33,33 @@
   color: #ffffff;
 }
 
+.subHeader {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  text-align: center;
+  align-self: center;
+
+  color: #ffffff;
+}
+
+.headerSubHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .line4 {
   width: 446px;
 }
 
+.myProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 120px;
+}

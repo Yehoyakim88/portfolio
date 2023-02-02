@@ -1,0 +1,155 @@
+.aProject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 155px;
+}
+
+.aProjectReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 155px;
+}
+
+.projectPreviewImage {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.projectTitle {
+  width: 196px;
+  height: 42.82px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
+
+  /* Style 1/style 1 b -blues/blues 1 */
+
+  color: #4b47ff;
+}
+
+.projectTechnologies {
+  width: 488px;
+  height: 28px;
+
+  /* Style 1/subtitles */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 120%;
+  /* identical to box height, or 28px */
+
+  /* Style 1/style 1 b -blues/blues 2 */
+
+  color: #00bee8;
+}
+
+.projectDescription {
+  width: fit-content;
+  height: 57px;
+
+  /* Style 1/body */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.projectButtons {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.liveTestButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+
+  width: 152px;
+  height: 58px;
+
+  /* Style 1/style 1 b -blues/blues 1 */
+
+  background: #4b47ff;
+  border-radius: 10px;
+  border: 0;
+  margin-right: 43px;
+  &:hover {
+    cursor: pointer;
+    background-color: #00bee8;
+  }
+}
+
+.liveTestText {
+  width: 92px;
+  height: 28px;
+
+  /* Style 1/subtitles */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 120%;
+  /* identical to box height, or 28px */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.gitHubButton {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+
+  width: 137px;
+  height: 58px;
+
+  /* Style 1/style 1 b -blues/blues 2 */
+
+  border: 1px solid #00bee8;
+  border-radius: 10px;
+  background: none;
+  margin-left: 43px;
+  &:hover {
+    cursor: pointer;
+    background-color: #00bee8;
+  }
+}
+
+.gitHubText {
+  width: 77px !important;
+}
