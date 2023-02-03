@@ -1,0 +1,207 @@
+.contactContainer {
+  position: absolute;
+  top: 4750px;
+  // left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactHeader {
+  display: flex;
+  align-items: center;
+}
+
+.contactHeaderText {
+  width: 376px;
+  height: 108px;
+  margin-left: 50px;
+
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 120%;
+  /* identical to box height, or 108px */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.contactSubHeaderText {
+  display: flex;
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.contactMainSection {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 85px;
+  margin-left: 90px;
+}
+
+.contactDescriptions {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.contactDescParagraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 473px;
+}
+
+.invitationContainer {
+  display: flex;
+}
+
+.contactInvitationText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.textBold {
+  font-family: "Poppins Bold";
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.contactInputs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 80px;
+}
+
+.singleLineInput {
+  padding: 7.5px 25px;
+  width: 567px;
+  // width: 517px;
+  height: 35px;
+  margin-bottom: 35px;
+  background: #141d2f;
+  /* Style 1/style 1 b -blues/blues 1 */
+
+  border: 1px solid #4b47ff;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  /* White */
+
+  color: #ffffff;
+
+  &:hover {
+    border: 1px solid #00bee8;
+  }
+}
+
+.multiLineInput {
+  padding: 15px 25px;
+  // gap: 10px;
+  // isolation: isolate;
+  width: 567px;
+  height: 202px;
+  margin-bottom: 35px;
+
+  /* Style 1/Syle 1 a - green purple/Blue bg */
+
+  background: #141d2f;
+  /* Style 1/style 1 b -blues/blues 1 */
+
+  border: 1px solid #4b47ff;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  /* White */
+
+  color: #ffffff;
+
+  &:hover {
+    border: 1px solid #00bee8;
+  }
+}
+
+.sendMessageButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  margin-bottom: 90px;
+  width: 253px;
+  height: 58px;
+  /* identical to box height, or 28px */
+
+  background: #00bee8;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 0;
+
+  &:hover {
+    cursor: pointer;
+    background: #4b47ff;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+  }
+  span {
+    width: 193px;
+    height: 28px;
+
+    /* Style 1/subtitles */
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    /* identical to box height, or 28px */
+
+    /* White */
+
+    color: #ffffff;
+  }
+}
+
+.goUpButton {
+  position: absolute;
+  top: 600px;
+  left: 625px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.lineAboveFooter {
+  position: absolute;
+  top: 769px;
+  left: 0;
+  // right: 0;
+  width: 98.675vw;
+  border: 2px solid #00bee8;
+}

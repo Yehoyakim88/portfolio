@@ -33,17 +33,22 @@
 
 a {
   font-family: "Poppins";
-  font-size: 23;
-  color: white;
+  font-weight: 400;
+  font-size: 23px;
+  color: #ffff;
   margin-left: 20px;
   margin-right: 20px;
+  text-decoration: none;
+
+  &:hover {
+    color:#00bee8
+  }
 }
 
-span {
-  font-family: "Poppins";
-  font-size: 23;
-  color: white;
-}
+// span {
+  
+//   color: white;
+// }
 
 
 
