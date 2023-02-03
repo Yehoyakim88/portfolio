@@ -151,7 +151,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
   padding: 15px 30px;
   margin-bottom: 90px;
   width: 253px;
@@ -163,44 +163,63 @@
   border-radius: 10px;
   border: 0;
 
+  // width: 193px;
+  // height: 58px;
+
+  /* Style 1/subtitles */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 120%;
+  /* identical to box height, or 28px */
+
+  /* White */
+
+  color: #ffffff;
+
   &:hover {
     cursor: pointer;
     background: #4b47ff;
     transition: 0.3s ease-in-out;
     transform: scale(1.2);
   }
-  span {
-    width: 193px;
-    height: 28px;
+  // span {
+  //   width: 193px;
+  //   height: 28px;
 
-    /* Style 1/subtitles */
+  //   /* Style 1/subtitles */
 
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 120%;
-    /* identical to box height, or 28px */
+  //   font-family: "Poppins";
+  //   font-style: normal;
+  //   font-weight: 400;
+  //   font-size: 23px;
+  //   line-height: 120%;
+  //   /* identical to box height, or 28px */
 
-    /* White */
+  //   /* White */
 
-    color: #ffffff;
-  }
+  //   color: #ffffff;
+  // }
 }
 
 .goUpButton {
-  position: absolute;
-  top: 600px;
-  left: 625px;
+  // position: absolute;
+  // top: 600px;
+  // left: 625px;
+  align-self: flex-end;
+  margin-right: 92px;
+  margin-bottom: 100px;
   &:hover {
     cursor: pointer;
   }
 }
 
 .lineAboveFooter {
-  position: absolute;
-  top: 769px;
-  left: 0;
+  // position: absolute;
+  // top: 769px;
+  // left: 0;
   // right: 0;
   width: 98.675vw;
   border: 2px solid #00bee8;

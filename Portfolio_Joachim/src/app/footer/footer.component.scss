@@ -1,0 +1,47 @@
+.mainContainer {
+  position: absolute;
+  top: 5680px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 280px;
+  width: 100%;
+}
+
+.logoImage {
+  margin-left: 100px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.copyrightText {
+  /* Style 1/subtitles */
+//   margin-left: 322px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 120%;
+  /* identical to box height, or 28px */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+//   margin-left: 307px;
+  margin-right: 100px;
+}
+
+.socialMediaImages {
+  margin-left: 42px;
+  z-index: 1;
+  cursor: pointer;
+}
