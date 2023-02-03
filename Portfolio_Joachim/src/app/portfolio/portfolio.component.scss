@@ -60,6 +60,19 @@
 .myProjectsContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
   margin-top: 120px;
+  margin-right: 50px;
+}
+
+.myPortfolioShadow {
+  position: absolute;
+  width: 800px;
+  height: 950px;
+  left: -350px;
+  top: 900px;
+}
+
+.d-none {
+  display: none;
 }

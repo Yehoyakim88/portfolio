@@ -1,27 +1,36 @@
 .aProject {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-bottom: 155px;
+  // align-items: center;
+  margin-bottom: 200px;
+  // width: 620px;
 }
 
 .aProjectReverse {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;
-  margin-bottom: 155px;
+  // align-items: center;
+  margin-bottom: 200px;
+  // width: 620px;
 }
 
 .projectPreviewImage {
   width: 400px;
-  height: 300px;
-  object-fit: cover;
+  z-index: 1;
+  // height: 400px;
+  // object-fit: cover;
 }
 
 .descriptionContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
+  margin-left: 100px;
+}
+
+.descriptionContainerReverse {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
 }
 
 .projectTitle {
@@ -34,6 +43,8 @@
   font-size: 32px;
   line-height: 120%;
   /* or 38px */
+
+  margin-bottom: 15px;
 
   /* Style 1/style 1 b -blues/blues 1 */
 
@@ -54,6 +65,7 @@
   /* identical to box height, or 28px */
 
   /* Style 1/style 1 b -blues/blues 2 */
+  margin-bottom: 15px;
 
   color: #00bee8;
 }

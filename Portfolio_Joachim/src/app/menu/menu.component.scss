@@ -1,13 +1,20 @@
 @import "./../../assets/fonts/Poppins/fonts.scss";
 
 .fixedMenu {
-  // position: fixed;
+  position: fixed;
+  display: flex;
+  z-index: 3;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 109.03px;
+  background-color: #141D2F;
 }
 
 .logoImage {
-  position: absolute;
-  left: 100px;
-  top: -50px;
+  // position: absolute;
+  // left: 100px;
+  // top: -50px;
   width: 300px;
   height: 200px;
   object-fit: cover;
@@ -15,13 +22,13 @@
 }
 
 .menuContainer {
-  position: absolute;
-  top: 38.5px;
-  right: 101px;
+  // position: absolute;
+  // top: 38.5px;
+  // right: 101px;
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
-  // margin: 20px;
+  margin-right: 100px;
 }
 
 a {
