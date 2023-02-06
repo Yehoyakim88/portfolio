@@ -3,7 +3,7 @@
 ########### CONFIG ###############
 
 $recipient = 'jk.duerr@t-online.de';
-$redirect = 'success.html';
+// $redirect = './../index.html';
 
 ########### CONFIG END ###########
 
@@ -40,13 +40,23 @@ switch ($_SERVER['REQUEST_METHOD']) {
         header("Access-Control-Allow-Origin: *");
 
         $subject = "Contact From " . $_POST['name'];
-        $headers = "From:  noreply@developerakademie.com";
+        $headers = "Via www.joachim-k-duerr.de From: " . $_POST['mail'];
 
         mail($recipient, $subject, $_POST['message'], $headers);
-        header("Location: " . $redirect); 
+        // header("Location: " . $redirect);
+        #echo '<script type="text/javascript">';
+        #echo ' alert("JavaScript Alert Box by PHP")';  //not showing an alert box.
+        #echo '</script>';
+        echo "<script>
+        alert('Message sent. Thank you! Click on \'Ok\' to get back to page');
+        window.location.href='./../';
+        </script>";
+       
 
         break;
     default: //Reject any non POST or OPTIONS requests.
         header("Allow: POST", true, 405);
         exit;
 }
+#$redirect = './../index.html';
+#header("Location: " . $redirect);

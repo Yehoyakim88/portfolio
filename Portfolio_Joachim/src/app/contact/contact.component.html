@@ -16,13 +16,12 @@
       </div>
     </div>
     <div class="contactInputs">
-      <form action="./../../assets/send_mail.php" method="POST"></form>
-        <input class="singleLineInput" type="text" placeholder="Your name" required>
-        <input class="singleLineInput" type="text" placeholder="Your email" required>
-        <!-- <input class="multiLineInput" type="text" placeholder="Your message" required> -->
-        <!-- <input class="multiLineInput" type="text" placeholder="Your message" required> -->
-        <textarea class="multiLineInput" placeholder="Your message"></textarea>
+      <form action="./../../assets/send_mail.php" method="POST" >
+        <input class="singleLineInput" type="text" name="name" placeholder="Your name" required>
+        <input class="singleLineInput" type="text" name="mail" placeholder="Your email" required>
+        <textarea class="multiLineInput" name="message" placeholder="Your message" required></textarea>
         <input type="submit" class="sendMessageButton" value="Send message :)">
+      </form>
         <!-- <a href="#" class="goUpButton"><img src="./../../assets/img/Go up button.png"></a> -->
     </div>
     

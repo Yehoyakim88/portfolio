@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 import { ProjectComponent } from './project/project.component';
+import { MailSentComponent } from './mail-sent/mail-sent.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProjectComponent } from './project/project.component';
     ContactComponent,
     FooterComponent,
     MenuComponent,
-    ProjectComponent
+    ProjectComponent,
+    MailSentComponent
   ],
   imports: [
     BrowserModule,
